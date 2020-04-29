@@ -13,7 +13,7 @@ public class Solution {
         System.out.println("nhap gia tri c");
         double c =scanner.nextDouble();
         QuadraticEquation quadraticEquation = new QuadraticEquation(a,b,c);
-        double delta =quadraticEquation.getDiscriminant();
+        double delta =quadraticEquation.getDelta();
         if(delta<0){
             System.out.println("phuong trinh vo nghiem!");
         }else if(delta==0){
